@@ -1,0 +1,24 @@
+{
+    "name": "wellmed-plus/ms-plus-point-of-sale",
+    "autoload": {
+        "psr-4": {
+            "WellmedPlus\\MsPlusPointOfSale\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamzah Nur Alfalah",
+            "email": "hamzahnafalah@gmail.com"
+        }
+    ],
+    "require": {
+        "hanafalah/module-payment": "dev-main",
+        "hanafalah/module-profession": "dev-main",
+        "hanafalah/module-service": "dev-main",
+        "hanafalah/module-transaction": "dev-main",
+        "hanafalah/module-tax": "dev-main",
+        "hanafalah/module-payer": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
